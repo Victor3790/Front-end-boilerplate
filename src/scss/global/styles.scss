@@ -1,0 +1,36 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/containers";
+
+@import "../vars";
+
+.header
+{
+    padding: 25px 0;
+}
+
+.header__title
+{
+    font-size: 20px;
+}
+
+.header__title--blue
+{
+    color: blue;
+}
+
+.header__title--red
+{
+    color: red;
+}
+
+//Media queries
+@import "./small";
+@import "./medium";
+@import "./large";
+@import "./xLarge";
